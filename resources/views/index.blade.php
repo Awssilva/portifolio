@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <title>Alexandre Silva | Tree</title>
-    <link rel="shortcut icon" href="{{ asset('favicon.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('einstein.ico')}}" type="image/x-icon" />
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}" />
-    <link rel="icon" href="{{ asset('/imagens/Template.png') }}" type="image/x-icon" />
+    
     <script type="text/javascript" src="{{ asset('/js/script.js') }}"></script>
   </head>
 
@@ -23,7 +23,6 @@
       <a
         class="link"
         href="#"
-        target="_blank"
         style="border-radius: 25px"
         ><i class="fa fa-globe" aria-hidden="true"></i> Meu site</a
       >
@@ -37,15 +36,14 @@
       <a
         class="link"
         href="#"
-        target="_blank"
         style="border-radius: 25px"
       >
         <i class="fa fa-file-code-o"></i>
-        Aplicativos</a
+         CI/CD</a
       >
       <a
         class="link"
-        href="#"
+        href="https://pomodoroclock.fly.dev"
         target="_blank"
         style="border-radius: 25px"
       >
@@ -54,7 +52,7 @@
     </div>
 
     <div class="footer">
-      <a href="#" target="_blank">
+      <a href="#">
         <i
           style="line-height: 38px"
           class="fa fa-instagram circulo"
